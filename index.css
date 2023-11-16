@@ -121,6 +121,13 @@ h3 { font-size: var(--fs-h3) }
     text-transform: uppercase;
 }
 
+.section-subtitle-projects {
+    color: var(--clr-accent);
+    font-weight: var(--fw-bold);
+    letter-spacing: 1.5px;
+    margin-bottom: 2em;
+}
+
 /*  Intro section  */
 
 .intro {
@@ -258,4 +265,36 @@ img.biking {
         z-index: 2;
         max-width: 300px;
     }
+}
+
+/* Projects */
+
+.recent-projects {
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    text-align: center;    
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.project {
+    background: var(--clr-accent);
+    overflow: hidden;
+}
+
+.project_img {
+    transition: 
+        transform 750ms cubic-bezier(.5, 0, .5, 1),
+        opacity 250ms linear;
+        width: 100%;
+}
+
+.project_img:hover {
+    transform: scale(1.2);
+    opacity: .5;
 }
