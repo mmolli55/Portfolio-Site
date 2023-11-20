@@ -401,6 +401,10 @@ img.biking {
     text-align: center;    
 }
 
+.section_title-projects {
+    margin-bottom: 8px;
+}
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -411,18 +415,35 @@ img.biking {
 .project {
     background: var(--clr-accent);
     overflow: hidden;
+    margin-bottom: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.project_title {
+  margin-top: 15px;
+}
+
+.project_description {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .project_img {
-    transition: 
+    width: 100%;
+    /*
+        transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
-        width: 100%;
+    */
 }
 
 .project_img:hover {
-    transform: scale(1.2);
     opacity: .5;
+    /*
+        transform: scale(1.2);
+       
+    */
 }
 
 /* Footer */
