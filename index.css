@@ -431,19 +431,14 @@ img.biking {
 
 .project_img {
     width: 100%;
-    /*
-        transition: 
+    transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
-    */
 }
 
 .project_img:hover {
-    opacity: .5;
-    /*
-        transform: scale(1.2);
-       
-    */
+    opacity: 1;
+    transform: scale(1.1);
 }
 
 /* Footer */
