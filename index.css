@@ -60,6 +60,10 @@ img {
     max-width: 100%;
 }
 
+.bullet {
+    color: #229AE0;
+}
+
 /* Buttons */
 
 .btn {
