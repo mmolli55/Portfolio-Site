@@ -64,6 +64,10 @@ img {
     color: #229AE0;
 }
 
+.timeframe {
+    font-weight: normal;
+}
+
 /* Buttons */
 
 .btn {
